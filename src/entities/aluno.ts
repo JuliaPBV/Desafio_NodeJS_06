@@ -39,5 +39,12 @@ app.listen(PORT, () => {
 
 	// CÓDIGO PARA ATENDER OS REQUERIMENTOS
 	// R01, R02, R03, R04, R05
-	
+
 });
+
+export class Aluno {
+    constructor(
+        public id: number,
+        public nome: string
+    ) {}
+}
